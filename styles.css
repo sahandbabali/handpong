@@ -1,0 +1,8 @@
+.videocanva {
+      width: 450px !important;
+      height: 338px !important;
+}
+
+.video {
+      display: none;
+}
