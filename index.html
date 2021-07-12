@@ -1,20 +1,24 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <title>Handtracking test</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css"> 
-       <script src=" https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/handtrackjs@latest/dist/handtrack.min.js"> </script>
+  <head>
+    <meta charset="utf-8" />
+    <title>Handtracking test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/handtrackjs@latest/dist/handtrack.min.js"></script>
+  </head>
+  <body>
+    <div id="cont" class="container">
+      <img id="logo" src="./wave.png" alt="" srcset="" />
+      <h1 id="title">Hand Pong</h1>
+      <br />
 
-    </head>
-    <body>
-        <p>Handtracking test</p>  
+      <video class="video videocanva" id="myvideo"></video>
+      <canvas class="videocanva" id="canvas"></canvas>
+      <br />
+    </div>
 
-
-        <video class="video videocanva" id="myvideo"> </video>
-<canvas class="videocanva" id="canvas"></canvas>
-        <script src="scripts.js"></script>
-    </body>
+    <script src="scripts.js"></script>
+  </body>
 </html>

@@ -6,3 +6,29 @@
 .video {
       display: none;
 }
+
+
+.container {
+      text-align: center;
+}
+
+
+body {
+      background-color: #457b9d;
+      color: white;
+}
+
+#defaultCanvas0 {
+      border: 1px solid white;
+}
+canvas {
+      border: 1px solid white;
+}
+
+* {
+      font-family: "open sans";
+}
+
+#title {
+      display: inline-block;
+}
